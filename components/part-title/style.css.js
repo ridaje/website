@@ -5,6 +5,7 @@ export default `
 
 #title {
   display: block;
+  font-size: var(--title-size);
   font-family: var(--heading-font);
   color: var(--heading-color);
   text-transform: uppercase;

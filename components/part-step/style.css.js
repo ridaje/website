@@ -31,4 +31,13 @@ export default `
   background-position: center;
   background-repeat: no-repeat;
 }
+
+@media (max-width: 1024px) {
+
+  #info {
+    padding: 20px;
+    height: 120px;
+  }
+
+}
 `

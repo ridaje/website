@@ -36,4 +36,13 @@ export default `
 #cite:before {
   content: '— ';
 }
+
+@media (max-width: 1024px) {
+
+  #part {
+    padding: 60px 30px;
+    font-size: 1em;
+  }
+
+}
 `

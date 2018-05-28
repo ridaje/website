@@ -35,4 +35,37 @@ export default `
   grid-column: 3;
   grid-row: 1 / 3;
 }
+
+@media (max-width: 1024px) {
+
+  :host {
+    padding: 20px;
+  }
+
+  #part {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  #title {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  #subtitle {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  #content {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  #image {
+    grid-column: 1;
+    grid-row: 4;
+  }
+
+}
 `

@@ -10,6 +10,8 @@ export default `
   --heading-font: Oswald;
   --heading-color: #503629;
   --content-font: Lato;
+  --title-size: 1.25em;
+  --subtitle-size: 3em;
 }
 
 :root {

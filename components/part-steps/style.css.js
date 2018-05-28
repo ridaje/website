@@ -4,23 +4,18 @@ export default `
 }
 
 #steps {
-  grid-column: 1 / 4;
-  grid-row: 2;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 30px;
+  grid-row-gap: 20px;
 }
 
-.step:nth-child(1) {
-  grid-column: 1;
-}
+@media (max-width: 1024px) {
 
-.step:nth-child(2) {
-  grid-column: 2;
-}
+  #steps {
+    grid-template-columns: 1fr;
+  }
 
-.step:nth-child(3) {
-  grid-column: 3;
 }
 `

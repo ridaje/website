@@ -63,9 +63,6 @@ var style_css = `
   justify-content: center;
 }
 
-#banner {
-}
-
 #title {
   line-height: 1em;
   font-size: 5em;
@@ -86,6 +83,14 @@ var style_css = `
   text-align: center;
   color: white;
   margin: 0;
+}
+
+@media (max-width: 1024px) {
+
+  #part {
+    padding: 0;
+  }
+
 }
 `
 
@@ -122,6 +127,7 @@ var style_css$1 = `
 
 #title {
   display: block;
+  font-size: var(--title-size);
   font-family: var(--heading-font);
   color: var(--heading-color);
   text-transform: uppercase;
@@ -165,7 +171,7 @@ var style_css$2 = `
 #subtitle {
   font-family: var(--heading-font);
   color: var(--heading-color);
-  font-size: 1.75em;
+  font-size: var(--subtitle-size);
   line-height: 1;
   text-transform: uppercase;
 }
@@ -303,6 +309,39 @@ var style_css$5 = `
   grid-column: 3;
   grid-row: 1 / 3;
 }
+
+@media (max-width: 1024px) {
+
+  :host {
+    padding: 20px;
+  }
+
+  #part {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  #title {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  #subtitle {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  #content {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  #image {
+    grid-column: 1;
+    grid-row: 4;
+  }
+
+}
 `
 
 class PartBlock1 extends Pantarei.Component {
@@ -360,6 +399,15 @@ var style_css$6 = `
   background-position: center;
   background-repeat: no-repeat;
 }
+
+@media (max-width: 1024px) {
+
+  #info {
+    padding: 20px;
+    height: 120px;
+  }
+
+}
 `
 
 class PartStep extends Pantarei.Component {
@@ -399,24 +447,19 @@ var style_css$7 = `
 }
 
 #steps {
-  grid-column: 1 / 4;
-  grid-row: 2;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 30px;
+  grid-row-gap: 20px;
 }
 
-.step:nth-child(1) {
-  grid-column: 1;
-}
+@media (max-width: 1024px) {
 
-.step:nth-child(2) {
-  grid-column: 2;
-}
+  #steps {
+    grid-template-columns: 1fr;
+  }
 
-.step:nth-child(3) {
-  grid-column: 3;
 }
 `
 
@@ -472,6 +515,30 @@ var style_css$8 = `
 #steps {
   grid-column: 1 / 3;
   grid-row: 2;
+}
+
+@media (max-width: 1024px) {
+
+  :host {
+    margin: 60px 0;
+    padding: 20px;
+  }
+
+  #part {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  #subtitle {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  #steps {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
 }
 `
 
@@ -544,6 +611,15 @@ var style_css$9 = `
 #cite:before {
   content: '— ';
 }
+
+@media (max-width: 1024px) {
+
+  #part {
+    padding: 60px 30px;
+    font-size: 1em;
+  }
+
+}
 `
 
 class PartBlockquote extends Pantarei.Component {
@@ -614,6 +690,41 @@ var style_css$10 = `
   background-position: center;
   background-repeat: no-repeat;
   align-self: stretch;
+}
+
+@media (max-width: 1024px) {
+
+  :host {
+    padding: 20px;
+  }
+
+  #part {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+  }
+
+  .image {
+    height: 200px;
+  }
+
+  #a {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  #b {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  #c {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
 }
 `
 
@@ -780,6 +891,8 @@ var style_css$12 = `
   --heading-font: Oswald;
   --heading-color: #503629;
   --content-font: Lato;
+  --title-size: 1.25em;
+  --subtitle-size: 3em;
 }
 
 :root {

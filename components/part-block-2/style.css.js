@@ -31,4 +31,28 @@ export default `
   grid-column: 1 / 3;
   grid-row: 2;
 }
+
+@media (max-width: 1024px) {
+
+  :host {
+    margin: 60px 0;
+    padding: 20px;
+  }
+
+  #part {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  #subtitle {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  #steps {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+}
 `

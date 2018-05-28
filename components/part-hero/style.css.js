@@ -46,9 +46,6 @@ export default `
   justify-content: center;
 }
 
-#banner {
-}
-
 #title {
   line-height: 1em;
   font-size: 5em;
@@ -69,5 +66,13 @@ export default `
   text-align: center;
   color: white;
   margin: 0;
+}
+
+@media (max-width: 1024px) {
+
+  #part {
+    padding: 0;
+  }
+
 }
 `
