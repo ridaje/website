@@ -7,9 +7,9 @@
   <title>RIDAJE</title>
   <link href="https://fonts.googleapis.com/css?family=Lato|Oswald:700" rel="stylesheet">
   <link rel="stylesheet" href="styles/style.css">
-  <script src="https://ridaje.github.io/scripts/webcomponents/index.js"></script>
-  <script src="https://ridaje.github.io/scripts/pantarei/index.js"></script>
-  <script src="https://ridaje.github.io/components/app-container/index.js" type="module"></script>
+  <script src="scripts/webcomponents/index.js"></script>
+  <script src="components/app-container/index.js" type="module"></script>
+  <script src="text/javascript"></script>
 </head>
 <body>
   <noscript>
@@ -17,6 +17,7 @@
   </noscript>
 
   <app-container id="app"></app-container>
+
 
 </body>
 </html>

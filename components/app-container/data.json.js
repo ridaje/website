@@ -1,10 +1,10 @@
-export default [
-  {
+export default {
+  hero: {
     title: 'Ridaje',
-    subtitle: `C'è sempre un altra chance!`,
+    subtitle: `C'è sempre un'altra chance!`,
     image: 'https://images.pexels.com/photos/255441/pexels-photo-255441.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
   },
-  {
+  mission: {
     title: 'La nostra missione',
     subtitle: 'Ridaje  trasforma i senzatetto in giardinieri urbani che si prendono cura delle aree verdi abbandonate della città',
     content: `Solo a Roma i senzatetto sono 8000 e le aree verdi del comune che non godono dell'adeguata manutenzione sono circa 44 milioni metri quadrati.
@@ -14,7 +14,7 @@ export default [
       Daje...e Ridaje!`,
     image: 'https://images.pexels.com/photos/401213/pexels-photo-401213.jpeg?auto=compress&cs=tinysrgb&h=350'
   },
-  {
+  what: {
     title: 'Cosa facciamo',
     subtitle: 'Ci prendiamo cura delle aree verdi',
     background: 'gold',
@@ -36,14 +36,14 @@ export default [
       }
     ]
   },
-  {
+  blockquote: {
     quote: `Chi lavora con le sue mani è un lavoratore.
       Chi lavora con le sue mani e la sua testa è un artigiano.
       Chi lavora con le sue mani e la sua testa ed il suo cuore è un artista.`,
     cite: `San Francesco d'Assisi`,
     image: 'https://images.pexels.com/photos/886521/pexels-photo-886521.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
   },
-  {
+  how: {
     title: 'Come facciamo',
     subtitle: 'Curiamo tutte le fasi di selezione dei Giardinieri',
     background: '#eee',
@@ -65,17 +65,22 @@ export default [
       }
     ]
   },
-  {
+  gallery: {
     images: [
       'https://images.pexels.com/photos/305558/pexels-photo-305558.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
       'https://images.pexels.com/photos/7591/garden-flower-green-room-7591.jpg?auto=compress&cs=tinysrgb&h=350',
       'https://images.pexels.com/photos/295771/pexels-photo-295771.jpeg?auto=compress&cs=tinysrgb&h=350'
     ]
   },
-  {
+  contact: {
+    url: 'http://www.ridaje.com/php/form-process.php',
     title: 'Contattaci',
     subtitle: 'Riporta il verde nel tuo quartiere',
     description: 'Noi abbiamo le persone per farlo',
-    button: 'Segui la nostra passione'
+    name: 'Nome',
+    email: 'Email',
+    message: 'Messaggio',
+    button: 'Segui la nostra passione',
+    thanks: 'Grazie!'
   }
-]
+}

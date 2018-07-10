@@ -3,7 +3,7 @@ export default `
   display: block;
 }
 
-#title {
+:host {
   display: block;
   font-size: var(--title-size);
   font-family: var(--heading-font);
@@ -14,7 +14,7 @@ export default `
   padding-top: .5em;
   text-align: right;
 }
-#title:before {
+:host:before {
   content: '';
   position: absolute;
   right: 0px;
