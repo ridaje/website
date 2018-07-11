@@ -6,17 +6,32 @@
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0">
   <title>RIDAJE</title>
   <link href="https://fonts.googleapis.com/css?family=Lato|Oswald:700" rel="stylesheet">
-  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="https://ridaje.github.io/website/styles/style.css">
   <script src="https://ridaje.github.io/website/scripts/webcomponents/index.js"></script>
   <script src="https://ridaje.github.io/website/scripts/pantarei/index.js"></script>
-  <script src="https://ridaje.github.io/website/components/app-container/index.js" type="module"></script>
+  <script src="https://ridaje.github.io/website/components/part-hero/index.js" type="module"></script>
+  <script src="https://ridaje.github.io/website/components/part-block-1/index.js" type="module"></script>
+  <script src="https://ridaje.github.io/website/components/part-block-2/index.js" type="module"></script>
+  <script src="https://ridaje.github.io/website/components/part-blockquote/index.js" type="module"></script>
+  <script src="https://ridaje.github.io/website/components/part-images/index.js" type="module"></script>
+  <script src="https://ridaje.github.io/website/components/part-contact/index.js" type="module"></script>
+  <script src="https://ridaje.github.io/website/components/part-footer/index.js" type="module"></script>
 </head>
 <body>
   <noscript>
     <strong>RIDAJE</strong>
   </noscript>
 
-  <app-container id="app"></app-container>
+  <part-hero id="hero"></part-hero>
+  <part-block-1 id="mission"></part-block-1>
+  <part-block-2 id="workflow"></part-block-2>
+  <part-blockquote id="citation"></part-blockquote>
+  <part-block-2 id="knowhow"></part-block-2>
+  <part-images id="gallery"></part-images>
+  <part-contact id="contact"></part-contact>
+  <part-footer id="footer"></part-footer>
 
+  <script src="https://ridaje.github.io/website/data.json.js"></script>
+  <script src="https://ridaje.github.io/website/index.js"></script>
 </body>
 </html>
