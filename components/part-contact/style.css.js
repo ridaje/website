@@ -1,6 +1,7 @@
 export default `
 :host {
   display: block;
+  box-sizing: border-box;
   padding: 60px;
   margin: 60px;
   width: 100%;
