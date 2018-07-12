@@ -2,8 +2,6 @@ export default `
 :host {
   display: block;
   box-sizing: border-box;
-  width: 100%;
-  max-width: 1200px;
 }
 
 #part {
