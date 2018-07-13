@@ -78,14 +78,15 @@ export default `
 }
 
 #button {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 20px;
   border: none;
   background: limegreen;
   font-size: 1.5em;
   text-transform: uppercase;
   font-family: var(--heading-font);
   color: white;
-  padding: 10px 20px;
-  width: 100%;
   outline: none;
 }
 #button:hover {
