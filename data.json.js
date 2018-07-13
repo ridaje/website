@@ -4,7 +4,7 @@ window.ridaje = {
     subtitle: `C'è sempre un'altra chance!`,
     image: 'https://images.pexels.com/photos/255441/pexels-photo-255441.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
     tagline: 'Sostienici',
-    offers_link: '#/offers'
+    offers_link: '#offers'
   },
   mission: {
     title: 'La nostra missione',

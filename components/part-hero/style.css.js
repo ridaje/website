@@ -69,15 +69,20 @@ export default `
 }
 
 #button {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 20px;
   border: none;
+  outline: none;
+  margin-top: 20px;
   background-color: limegreen;
+  display: block;
+  text-align: center;
+  text-decoration: none;
   font-size: 1.5em;
   text-transform: uppercase;
   font-family: var(--heading-font);
   color: white;
-  padding: 10px 20px;
-  width: 100%;
-  outline: none;
 }
 #button:hover {
   background-color: gold;
