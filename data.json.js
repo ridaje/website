@@ -72,6 +72,31 @@ window.ridaje = {
       'https://images.pexels.com/photos/295771/pexels-photo-295771.jpeg?auto=compress&cs=tinysrgb&h=350'
     ]
   },
+  offers: {
+    title: 'Dona',
+    subtitle: 'Riporta il verde nel tuo quartiere',
+    background: 'gold',
+    offers: [
+      {
+        title: '25 EURO',
+        description: '2 ore di lavoro.',
+        image: 'https://images.pexels.com/photos/912396/pexels-photo-912396.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+        paypal_button_id: 'A95R8GFMFSRGU'
+      },
+      {
+        title: '40 EURO',
+        description: '4 ore di lavoro.',
+        image: 'https://images.pexels.com/photos/776656/pexels-photo-776656.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+        paypal_button_id: 'XHDJBQH7PYX5E'
+      },
+      {
+        title: '70 EURO',
+        description: '8 ore di lavoro.',
+        image: 'https://images.pexels.com/photos/6370/nature-flowers-white-plants.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+        paypal_button_id: '2EQEZY37SSUEC'
+      }
+    ]
+  },
   contact: {
     url: 'http://www.ridaje.com/php/form-process.php',
     title: 'Contattaci',

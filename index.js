@@ -4,4 +4,5 @@ window.workflow.data = ridaje.workflow
 window.citation.data = ridaje.citation
 window.knowhow.data = ridaje.knowhow
 window.gallery.data = ridaje.gallery
+window.offers.data = ridaje.offers
 window.contact.data = ridaje.contact
