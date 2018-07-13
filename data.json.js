@@ -73,7 +73,7 @@ window.ridaje = {
     ]
   },
   offers: {
-    title: 'Dona',
+    title: 'Fai una donazione',
     subtitle: 'Riporta il verde nel tuo quartiere',
     background: 'gold',
     offers: [
