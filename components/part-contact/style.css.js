@@ -1,14 +1,13 @@
 export default `
 :host {
   display: block;
-  padding: 60px;
-  margin: 60px;
-  width: 100%;
-  max-width: 1200px;
+  box-sizing: border-box;
 }
 
 #part {
   box-sizing: border-box;
+  padding: 60px;
+  margin: 60px;
 }
 
 #part {
@@ -104,6 +103,8 @@ export default `
   #part {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
+    margin: 0;
+    padding: 0;
   }
 
   #subtitle {
