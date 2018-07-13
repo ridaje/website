@@ -94,6 +94,12 @@ window.ridaje = {
         description: '8 ore di lavoro.',
         image: 'https://images.pexels.com/photos/6370/nature-flowers-white-plants.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
         paypal_button_id: '2EQEZY37SSUEC'
+      },
+      {
+        title: 'Donazione libera',
+        description: '',
+        image: 'https://images.pexels.com/photos/145685/pexels-photo-145685.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+        paypal_button_id: 'JQ299WK87WRQE'
       }
     ]
   },
