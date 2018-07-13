@@ -68,6 +68,21 @@ export default `
   margin: 0;
 }
 
+#button {
+  border: none;
+  background-color: limegreen;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-family: var(--heading-font);
+  color: white;
+  padding: 10px 20px;
+  width: 100%;
+  outline: none;
+}
+#button:hover {
+  background-color: gold;
+}
+
 @media (max-width: 1024px) {
 
   #part {

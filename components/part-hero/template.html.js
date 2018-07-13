@@ -7,6 +7,7 @@ export default `
       <div id="banner">
         <h1 id="title" text="data.title"></h1>
         <h2 id="tagline" text="data.subtitle"></h2>
+        <a id="button" text="data.tagline" attr.href="data.offers_link"></a>
       </div>
     </div>
   </div>
