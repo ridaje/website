@@ -45,7 +45,6 @@ export default `
 .field {
   display: flex;
   flex-direction: column;
-  width: 100%;
   margin-bottom: 20px;
 }
 
@@ -56,6 +55,7 @@ export default `
 }
 
 .field .input {
+  box-sizing: border-box;
   font-size: 1.5em;
   border: none;
   outline: none;
@@ -99,6 +99,11 @@ export default `
   :host {
     margin: 60px 0;
     padding: 20px;
+  }
+
+  .form {
+    width: 100%;
+    max-width: 400px;
   }
 
   #part {
