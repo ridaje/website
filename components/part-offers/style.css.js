@@ -5,7 +5,7 @@ export default `
 
 #steps {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 30px;
   grid-row-gap: 20px;
