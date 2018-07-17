@@ -21,15 +21,15 @@ export class PartContact extends Pantarei.Component {
     }
 
     let url = this.data.url
-    let method = 'POSt'
+    let method = 'GET'
     let mode = 'no-cors'
 
     let name = this.refs.name.value
     let email = this.refs.email.value
     let message = this.refs.message.value
-    let body = `name=${name}&email=${email}&message=${message}`
+    let querystring = `?name=${name}&email=${email}&message=${message}`
 
-    let res = await fetch(url, { method, mode, body })
+    let res = await fetch(url + querystring, { method, mode })
     let text = await res.text()
     console.log(text)
 
